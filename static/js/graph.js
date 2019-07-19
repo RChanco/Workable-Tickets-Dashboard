@@ -28,29 +28,29 @@ function show_case_owner(ndx) {
     dc.barChart("#case-owner")
         .width(650)
         .height(300)
-        .margins({top: 10, right: 50, bottom: 30, left: 50})
+        .margins({top: 10, right: 50, bottom: 30, left: 50}) 
         .dimension(dim)
         .group(group)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Case Owner")
-        .yAxis().ticks(20);
+        .yAxis().ticks(20); 
 }
 
 function show_case_country(ndx) {
     var dim = ndx.dimension(dc.pluck('CaseCountry'));
     var group = dim.group();
     
-    dc.barChart("#case-country")
+    dc.pieChart("#case-country")
         .width(650)
         .height(300)
-        .margins({top: 10, right: 50, bottom: 30, left: 50})
+/*        .margins({top: 10, right: 50, bottom: 30, left: 50})  */
         .dimension(dim)
         .group(group)
         .transitionDuration(500)
-        .x(d3.scale.ordinal())
+/*        .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Case Country")
-        .yAxis().ticks(20);
+        .yAxis().ticks(20); */
 }
