@@ -9,7 +9,7 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 108127,Re-Opened,Anne  Fitzpatrick,Italy,Vendor Master Data Europe,Vendor Admin,13/02/2019,48,outside SLA,11/02/2019,01/02/2019,2,17.054375,10+ Days,02/04/2019 08:18,1,<7 Days
 113599,New (Reassigned),Anne  Fitzpatrick,France,Vendor Master Data Europe,Vendor Admin,12/03/2019,21,outside SLA,11/03/2019,01/03/2019,0,0.844,< 5 Days,12/03/2019 15:45,22,<30 Days
 117008,Response Received,Anne  Fitzpatrick,UK,Vendor Master Data Europe,Vendor Admin,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,4.289,< 5 Days,02/04/2019 10:57,1,<7 Days
-117060,Response Received,Anne  Fitzpatrick,Austria,Vendor Master Data Europe,Vendor Admin,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,4.158125,< 5 Days,01/04/2019 08:25,2,<7 Days
+117060,Response Received,Anne  Fitzpatrick,Belgium,Vendor Master Data Europe,Vendor Admin,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,4.158125,< 5 Days,01/04/2019 08:25,2,<7 Days
 117348,Working,Anne  Fitzpatrick,Germany,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.093875,< 5 Days,28/03/2019 14:13,6,<7 Days
 117645,Working,Anne  Fitzpatrick,Germany,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0.2935,< 5 Days,01/04/2019 07:16,2,<7 Days
 117654,New (Reassigned),Anne  Fitzpatrick,Belgium,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0.254125,< 5 Days,01/04/2019 07:16,2,<7 Days
@@ -19,7 +19,7 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 117924,Response Received,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.2635,< 5 Days,02/04/2019 08:44,1,<7 Days
 117942,Working,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.192625,< 5 Days,02/04/2019 08:44,1,<7 Days
 118126,Response Received,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,02/04/2019 08:44,1,<7 Days
-118129,Response Received,Joseph Sanchez,Italy,Vendor Master Data Europe,Accounts Payable,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.28525,< 5 Days,02/04/2019 11:16,1,<7 Days
+118129,Response Received,John Patton,Italy,Vendor Master Data Europe,Accounts Payable,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.28525,< 5 Days,02/04/2019 11:16,1,<7 Days
 118167,Working,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.31025,< 5 Days,02/04/2019 13:15,1,<7 Days
 118178,Working,Anne  Fitzpatrick,Ireland,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.27925,< 5 Days,02/04/2019 13:14,1,<7 Days
 118215,Response Received,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.0345,< 5 Days,02/04/2019 13:14,1,<7 Days
@@ -27,7 +27,7 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 118261,Working,Anne  Fitzpatrick,Norway,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 06:05,0,<7 Days
 118324,Working,Anne  Fitzpatrick,Portugal,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 08:09,0,<7 Days
 118333,Working,Anne  Fitzpatrick,Poland,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 08:09,0,<7 Days
-114575,Re-Opened,Jesus Gonzales,Norway,Vendor Master Data Europe,Vendor Admin,15/03/2019,18,outside SLA,11/03/2019,01/03/2019,1,0.58175,< 5 Days,02/04/2019 13:54,1,<7 Days
+114575,Re-Opened,John Patton,Norway,Vendor Master Data Europe,Vendor Admin,15/03/2019,18,outside SLA,11/03/2019,01/03/2019,1,0.58175,< 5 Days,02/04/2019 13:54,1,<7 Days
 114918,Re-Opened,Maria dela Cruz,Denmark,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,2.120875,< 5 Days,02/04/2019 18:51,1,<7 Days
 117909,Response Received,Maria dela Cruz,UK,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.316375,< 5 Days,01/04/2019 20:10,2,<7 Days
 117953,Response Received,Maria dela Cruz,Germany,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.154625,< 5 Days,02/04/2019 08:45,1,<7 Days
@@ -48,7 +48,7 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 112929,Re-Opened,Rogelio  Gomez,Italy,Vendor Master Data Europe,Vendor Admin,07/03/2019,26,outside SLA,04/03/2019,01/03/2019,1,2.244625,< 5 Days,29/03/2019 15:46,5,<7 Days
 113903,Response Received,Rogelio  Gomez,Belgium,Vendor Master Data Europe,Vendor Admin,13/03/2019,20,outside SLA,11/03/2019,01/03/2019,0,0.51575,< 5 Days,13/03/2019 14:34,21,<30 Days
 114791,Response Received,Rogelio  Gomez,Portugal,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,0,0,< 5 Days,19/03/2019 08:07,15,<30 Days
-115343,Working,Rogelio  Gomez,Austria,Ariba EU,Vendor Admin,20/03/2019,13,outside SLA,18/03/2019,01/03/2019,0,1,< 5 Days,21/03/2019 07:32,13,<14 Days
+115343,Working,Rogelio  Gomez,Belgium,Ariba EU,Vendor Admin,20/03/2019,13,outside SLA,18/03/2019,01/03/2019,0,1,< 5 Days,21/03/2019 07:32,13,<14 Days
 115355,Working,Rogelio  Gomez,Poland,Ariba EU,Vendor Admin,20/03/2019,13,outside SLA,18/03/2019,01/03/2019,0,0.933125,< 5 Days,21/03/2019 07:32,13,<14 Days
 115356,Working,Rogelio  Gomez,Finland,Vendor Master Data Europe,Vendor Admin,20/03/2019,13,outside SLA,18/03/2019,01/03/2019,0,0.927,< 5 Days,21/03/2019 07:32,13,<14 Days
 115357,Working,Rogelio  Gomez,Spain,Vendor Master Data Europe,Vendor Admin,20/03/2019,13,outside SLA,18/03/2019,01/03/2019,0,0.920375,< 5 Days,21/03/2019 07:32,13,<14 Days
@@ -66,7 +66,7 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 117320,New (Reassigned),Rogelio  Gomez,Norway,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.257625,< 5 Days,28/03/2019 14:14,6,<7 Days
 117347,New (Reassigned),Rogelio  Gomez,Portugal,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.08725,< 5 Days,28/03/2019 14:08,6,<7 Days
 117542,New (Reassigned),Rogelio  Gomez,Ireland,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0.477375,< 5 Days,29/03/2019 13:03,5,<7 Days
-117702,New (Reassigned),Rogelio  Gomez,Austria,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0,< 5 Days,01/04/2019 07:17,2,<7 Days
+117702,New (Reassigned),Rogelio  Gomez,Belgium,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0,< 5 Days,01/04/2019 07:17,2,<7 Days
 117840,New (Reassigned),Rogelio  Gomez,Norway,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.46175,< 5 Days,01/04/2019 14:07,2,<7 Days
 117864,New (Reassigned),Rogelio  Gomez,Ireland,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.2885,< 5 Days,01/04/2019 14:07,2,<7 Days
 117866,New (Reassigned),Rogelio  Gomez,Belgium,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.2575,< 5 Days,01/04/2019 14:07,2,<7 Days
@@ -76,12 +76,12 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 112117,Re-Opened,Shiela Santos,Ireland,Vendor Master Data Europe,Accounts Payable,05/03/2019,28,outside SLA,04/03/2019,01/03/2019,2,2.04275,< 5 Days,02/04/2019 15:21,1,<7 Days
 112442,Re-Opened,Shiela Santos,UK,Vendor Master Data Europe,Vendor Admin,06/03/2019,27,outside SLA,04/03/2019,01/03/2019,1,12.88575,10+ Days,01/04/2019 12:55,2,<7 Days
 114796,Re-Opened,Shiela Santos,Norway,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.2855,< 5 Days,01/04/2019 14:42,2,<7 Days
-114812,Re-Opened,Shiela Santos,Austria,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.20925,< 5 Days,01/04/2019 15:19,2,<7 Days
+114812,Re-Opened,Shiela Santos,Belgium,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.20925,< 5 Days,01/04/2019 15:19,2,<7 Days
 116963,Response Received,Shiela Santos,Ireland,Vendor Master Data Europe,Vendor Admin,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,3.223625,< 5 Days,02/04/2019 19:05,1,<7 Days
 117279,New (Reassigned),Shiela Santos,Ireland,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.582,< 5 Days,28/03/2019 14:09,6,<7 Days
 117664,Re-Opened,Shiela Santos,Germany,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,1,0.8175,< 5 Days,02/04/2019 11:57,1,<7 Days
-117820,New (Reassigned),Shiela Santos,Austria,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.643,< 5 Days,01/04/2019 14:08,2,<7 Days
-117910,Response Received,Shiela Santos,Austria,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,1.3025,< 5 Days,02/04/2019 17:02,1,<7 Days
+117820,New (Reassigned),Shiela Santos,Belgium,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.643,< 5 Days,01/04/2019 14:08,2,<7 Days
+117910,Response Received,Shiela Santos,Belgium,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,1.3025,< 5 Days,02/04/2019 17:02,1,<7 Days
 117916,Response Received,Shiela Santos,Finland,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,1.28025,< 5 Days,02/04/2019 13:30,1,<7 Days
 118136,New (Reassigned),Shiela Santos,Norway,Vendor Master Data Europe,Accounts Payable,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.55925,< 5 Days,02/04/2019 13:28,1,<7 Days
 118163,New (Reassigned),Shiela Santos,Ireland,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.319125,< 5 Days,02/04/2019 13:14,1,<7 Days
@@ -93,14 +93,14 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 118254,New (Reassigned),Shiela Santos,Italy,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 08:10,0,<7 Days
 118268,New (Reassigned),Shiela Santos,Ireland,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 08:10,0,<7 Days
 118437,New (Reassigned),Shiela Santos,Sweden,Vendor Master Data Europe,Vendor Admin,03/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 08:10,0,<7 Days
-113415,New (Reassigned),Joseph Sanchez,Italy,Vendor Master Data Europe,Accounts Payable,05/03/2019,28,outside SLA,04/03/2019,01/03/2019,2,2.04275,< 5 Days,02/04/2019 15:21,1,<7 Days
+113415,New (Reassigned),John Patton,Italy,Vendor Master Data Europe,Accounts Payable,05/03/2019,28,outside SLA,04/03/2019,01/03/2019,2,2.04275,< 5 Days,02/04/2019 15:21,1,<7 Days
 400113,Working,Shiela Santos,Spain,Vendor Master Data Europe,Accounts Payable,05/03/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.28525,< 5 Days,02/04/2019 11:16,1,<7 Days
 400114,Re-Opened,Shiela Santos,Portugal,Vendor Master Data Europe,Accounts Payable,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,1,0.106125,< 5 Days,03/04/2019 08:24,0,<7 Days
 400115,Re-Opened,Shiela Santos,Sweden,Vendor Master Data Europe,Accounts Payable,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.05475,< 5 Days,03/04/2019 08:53,0,<7 Days
-400116,Working,Joseph Sanchez,UK,Vendor Master Data Europe,Accounts Payable,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.2855,< 5 Days,01/04/2019 14:42,2,<7 Days
-400117,New (Reassigned),Joseph Sanchez,Sweden,Vendor Master Data Europe,Accounts Payable,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.20925,< 5 Days,01/04/2019 15:19,2,<7 Days
-400118,Re-Opened,Joseph Sanchez,Austria,Vendor Master Data Europe,Accounts Payable,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,3.223625,< 5 Days,02/04/2019 19:05,1,<7 Days
-114576,New (Reassigned),Jesus Gonzales,Poland,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.489,< 5 Days,02/04/2019 14:43,1,<7 Days
-114577,New (Reassigned),Jesus Gonzales,Germany,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,1,0.966625,< 5 Days,02/04/2019 10:19,1,<7 Days
-114570,Re-Opened,Jesus Gonzales,Italy,Vendor Master Data Europe,Vendor Admin,03/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 09:23,0,<7 Days
-114579,Re-Opened,Jesus Gonzales,Ireland,Vendor Master Data Europe,Vendor Admin,15/03/2019,18,outside SLA,11/03/2019,01/03/2019,1,0.58175,< 5 Days,02/04/2019 13:54,1,<7 Days
+400116,Working,John Patton,UK,Vendor Master Data Europe,Accounts Payable,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.2855,< 5 Days,01/04/2019 14:42,2,<7 Days
+400117,New (Reassigned),John Patton,Sweden,Vendor Master Data Europe,Accounts Payable,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,1.20925,< 5 Days,01/04/2019 15:19,2,<7 Days
+400118,Re-Opened,John Patton,Belgium,Vendor Master Data Europe,Accounts Payable,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,3.223625,< 5 Days,02/04/2019 19:05,1,<7 Days
+114576,New (Reassigned),John Patton,Poland,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.489,< 5 Days,02/04/2019 14:43,1,<7 Days
+114577,New (Reassigned),John Patton,Germany,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,1,0.966625,< 5 Days,02/04/2019 10:19,1,<7 Days
+114570,Re-Opened,John Patton,Italy,Vendor Master Data Europe,Vendor Admin,03/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 09:23,0,<7 Days
+114579,Re-Opened,John Patton,Ireland,Vendor Master Data Europe,Vendor Admin,15/03/2019,18,outside SLA,11/03/2019,01/03/2019,1,0.58175,< 5 Days,02/04/2019 13:54,1,<7 Days

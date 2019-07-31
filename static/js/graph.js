@@ -11,9 +11,10 @@ function makeGraphs(error, ticketsData) {
 */
     show_status_selector(ndx);
     show_case_owner(ndx);
+    show_case_owner_selector(ndx);
     show_sla_status(ndx);
     show_case_country(ndx);
-/*    show_case_days_old(ndx);  */
+    show_days_old(ndx);  
     
     dc.renderAll();
     
@@ -32,7 +33,7 @@ function show_case_owner(ndx) {
     var group = dim.group();
     
     dc.barChart("#case-owner")
-        .width(650)
+        .width(500)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50}) 
         .dimension(dim)
@@ -42,6 +43,15 @@ function show_case_owner(ndx) {
         .xUnits(dc.units.ordinal)
         .xAxisLabel("Case Owner")
         .yAxis().ticks(20) ; 
+}
+
+function show_case_owner_selector(ndx) {
+    var dim = ndx.dimension(dc.pluck('CaseOwner'));
+    var group = dim.group();
+    
+    dc.selectMenu("#case-owner-selector")
+        .dimension(dim)
+        .group(group);
 }
 
 function show_sla_status(ndx) {
@@ -62,53 +72,7 @@ function show_sla_status(ndx) {
 	}
 
 
-/*
-function show_case_days_old(ndx) {
-    var dim = ndx.dimension(dc.pluck('CaseOwner'));
-    
-    function add_item(p, v) {
-        p.count++;
-        p.total += v.DaysOld;
-        p.average = p.total / p.count;
-        return p;
-    }
 
-    function remove_item(p, v) {
-        p.count--;
-        if(p.count == 0) {
-            p.total = 0;
-            p.average = 0;
-        } else {
-            p.total -= v.DaysOld;
-            p.average = p.total / p.count;
-        }
-        return p;
-    }
-    
-    function initialise() {
-        return {count: 0, total: 0, average: 0};
-    }
-
-    var averageDaysOld = dim.group().reduce(add_item, remove_item, initialise); 
-    
-    dc.barChart("#average-days-old")
-	        .width(400)
-	        .height(300)
-	        .margins({top: 10, right: 50, bottom: 30, left: 50})
-	        .dimension(dim)
-	        .group(averageDaysOld)
-	        .valueAccessor(function(d){
-	            return d.value.average.toFixed(2);
-	        })
-	        .transitionDuration(500)
-	        .x(d3.scale.ordinal())
-	        .xUnits(dc.units.ordinal)
-	        .elasticY(true)
-	        .xAxisLabel("Gender")
-	        .yAxis().ticks(4);   
-
-}
-*/
 function show_case_country(ndx) {
     var dim = ndx.dimension(dc.pluck('CaseCountry'));
     var group = dim.group();
@@ -122,7 +86,7 @@ function show_case_country(ndx) {
 }
 
 function show_days_old(ndx) {
-    var dim = ndx.dimension(dc.pluck('DaysOld'));
+    var dim = ndx.dimension(dc.pluck('CaseOwner'));
     
     function add_item(p, v) {
         p.count++;
@@ -149,7 +113,7 @@ function show_days_old(ndx) {
 
     var averageDaysOld = dim.group().reduce(add_item, remove_item, initialise);
 
-    dc.barChart("#average-salary")
+    dc.barChart("#average-days-old")
         .width(400)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
