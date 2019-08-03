@@ -128,3 +128,38 @@ function show_days_old(ndx) {
         .xAxisLabel("Gender")
         .yAxis().ticks(4);
 }
+
+function show_days_old_to_status_correlation(ndx) {
+	    
+	    var genderColors = d3.scale.ordinal()
+	        .domain(["outside SLA", "Within SLA"])
+	        .range(["red", "green"]);
+	    
+	    var eDim = ndx.dimension(dc.pluck("DaysOld"));
+	    var experienceDim = ndx.dimension(function(d) {
+	       return [d.DaysOld, d.CaseOwner, d.Status, d.SLAstatus];
+	    });
+	    var daysOldGroup = daysOldDim.group();
+	    
+	    var minDaysOld = eDim.bottom(1)[0].DaysOld;
+	    var maxDaysOld = eDim.top(1)[0].DaysOld;
+	    
+	    dc.scatterPlot("#daysOld")
+	        .width(800)
+	        .height(400)
+	        .x(d3.scale.linear().domain([minDaysOld, maxDaysOld]))
+	        .brushOn(false)
+	        .symbolSize(8)
+	        .clipPadding(10)
+	        .xAxisLabel("Age Of Case")
+	        .title(function(d) {
+	            return d.key[2] + " earned " + d.key[1];
+	        })
+	        .colorAccessor(function (d) {
+	            return d.key[3];
+	        })
+	        .colors(genderColors)
+	        .dimension(daysOldDim)
+	        .group(daysOldGroup)
+	        .margins({top: 10, right: 50, bottom: 75, left: 75});
+	}
