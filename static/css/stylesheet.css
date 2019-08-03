@@ -12058,3 +12058,27 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+
+.section-heading, #status-selector {
+		display: inline-block;	
+		float: none;
+		margin: 0;
+	}
+	
+	
+
+	.section-heading {
+		margin-bottom: 50px;
+	}
+	
+
+	#status-selector {
+		margin-left: 15px;
+	}
+	
+
+	.number-box {
+		margin-right: 75px;
+	}
+

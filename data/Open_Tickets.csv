@@ -1,4 +1,4 @@
-CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,DaysOld,SLA status,OpenWeek,OpenMonth,ReOpenedCount,CycleTime,CycleTimeBucket,LastStatusChangeDate,StatusAge,StatusAgeBucket
+CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,DaysOld,SLAstatus,OpenWeek,OpenMonth,ReOpenedCount,CycleTime,CycleTimeBucket,LastStatusChangeDate,StatusAge,StatusAgeBucket
 106550,Response Received,John Patton,Norway,Ariba EU,Vendor Admin,05/02/2019,56,outside SLA,04/02/2019,01/02/2019,1,4.9975,< 5 Days,01/04/2019 15:37,2,<7 Days
 112790,Response Received,John Patton,Poland,Vendor Master Data Europe,Vendor Admin,07/03/2019,26,outside SLA,04/03/2019,01/03/2019,0,0.892625,< 5 Days,07/03/2019 18:22,27,<30 Days
 115125,Working,John Patton,Germany,Vendor Master Data Europe,Vendor Admin,19/03/2019,14,outside SLA,18/03/2019,01/03/2019,0,4.296625,< 5 Days,02/04/2019 11:06,1,<7 Days
@@ -104,3 +104,20 @@ CaseNumber,Status,CaseOwner,CaseCountry,ResponsibleDepartment,Type,OpenDate,Days
 114577,New (Reassigned),John Patton,Germany,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,1,0.966625,< 5 Days,02/04/2019 10:19,1,<7 Days
 114570,Re-Opened,John Patton,Italy,Vendor Master Data Europe,Vendor Admin,03/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,03/04/2019 09:23,0,<7 Days
 114579,Re-Opened,John Patton,Ireland,Vendor Master Data Europe,Vendor Admin,15/03/2019,18,outside SLA,11/03/2019,01/03/2019,1,0.58175,< 5 Days,02/04/2019 13:54,1,<7 Days
+114580,Re-Opened,Shiela Santos,Denmark,Vendor Master Data Europe,Vendor Admin,18/03/2019,15,outside SLA,18/03/2019,01/03/2019,1,2.120875,< 5 Days,02/04/2019 18:51,1,<7 Days
+114570,New (Reassigned),John Patton,Denmark,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.154625,< 5 Days,02/04/2019 08:45,1,<7 Days
+114567,Re-Opened,Shiela Santos,Denmark,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0,< 5 Days,02/04/2019 08:45,1,<7 Days
+114582,New (Reassigned),John Patton,Denmark,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.265,< 5 Days,02/04/2019 13:15,1,<7 Days
+114535,New (Reassigned),Maria dela Cruz,Denmark,Vendor Master Data Europe,Vendor Admin,25/02/2019,36,outside SLA,25/02/2019,01/02/2019,1,13.274875,10+ Days,29/03/2019 10:51,5,<7 Days
+117918,Re-Opened,John Patton,Finland,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.576625,< 5 Days,28/03/2019 14:08,6,<7 Days
+117920,Re-Opened,Maria dela Cruz,Finland,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0.477375,< 5 Days,29/03/2019 13:03,5,<7 Days
+117910,Re-Opened,Shiela Santos,Finland,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.2885,< 5 Days,01/04/2019 14:07,2,<7 Days
+117800,Working,Shiela Santos,Finland,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.249625,< 5 Days,01/04/2019 14:07,2,<7 Days
+117919,New (Reassigned),John Patton,Finland,Vendor Master Data Europe,Vendor Admin,27/02/2019,34,outside SLA,25/02/2019,01/02/2019,1,20.89925,10+ Days,01/04/2019 22:48,2,<7 Days
+117925,New (Reassigned),Maria dela Cruz,Finland,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.582,< 5 Days,28/03/2019 14:09,6,<7 Days
+118270,New (Reassigned),John Patton,France,Vendor Master Data Europe,Vendor Admin,01/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.641875,< 5 Days,01/04/2019 14:08,2,<7 Days
+118288,Re-Opened,Anne  Fitzpatrick,France,Vendor Master Data Europe,Vendor Admin,02/04/2019,1,Within SLA,01/04/2019,01/04/2019,0,0.27925,< 5 Days,02/04/2019 13:14,1,<7 Days
+118368,New (Reassigned),Anne  Fitzpatrick,France,Vendor Master Data Europe,Vendor Admin,29/03/2019,4,outside SLA,25/03/2019,01/03/2019,0,0.477375,< 5 Days,29/03/2019 13:03,5,<7 Days
+118270,Re-Opened,Rogelio  Gomez,France,Vendor Master Data Europe,Vendor Admin,05/03/2019,28,outside SLA,04/03/2019,01/03/2019,2,2.04275,< 5 Days,02/04/2019 15:21,1,<7 Days
+118888,New (Reassigned),John Patton,France,Vendor Master Data Europe,Vendor Admin,27/03/2019,6,outside SLA,25/03/2019,01/03/2019,0,3.223625,< 5 Days,02/04/2019 19:05,1,<7 Days
+118968,Re-Opened,John Patton,France,Vendor Master Data Europe,Vendor Admin,28/03/2019,5,outside SLA,25/03/2019,01/03/2019,0,0.582,< 5 Days,28/03/2019 14:09,6,<7 Days

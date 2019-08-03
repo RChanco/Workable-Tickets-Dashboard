@@ -55,7 +55,7 @@ function show_case_owner_selector(ndx) {
 }
 
 function show_sla_status(ndx) {
-	    var dim = ndx.dimension(dc.pluck('SLA status'));
+	    var dim = ndx.dimension(dc.pluck('SLAstatus'));
 	    var group = dim.group();
 	    
 	    dc.barChart("#sla-status")
@@ -110,8 +110,7 @@ function show_days_old(ndx) {
     function initialise() {
         return {count: 0, total: 0, average: 0};
     }
-
-    var averageDaysOld = dim.group().reduce(add_item, remove_item, initialise);
+  var averageDaysOld = dim.group().reduce(add_item, remove_item, initialise);
 
     dc.barChart("#average-days-old")
         .width(400)
