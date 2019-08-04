@@ -8,13 +8,14 @@
     
     <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="static/css/stylesheet.css" rel="stylesheet">
+  <link href="static/css/stylesheet.css" rel="stylesheet" type="text/css">
     
 
     <script type="text/javascript" src="static/js/d3.min.js"></script>
@@ -334,28 +335,14 @@
           </ul>
 
         </nav>
-<!--        
-<div class="wrapper d-flex">
-    <div class="sideMenu">
-      <div class="sidebar">
-          <ul class="navbar-nav">
-              <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons icon">dashboard</i><span class="text">Dashboard</span></a></li>
-              <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons icon">person</i><span class="text">User Profile</span></a></li>
-              <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons icon">inser_chart</i><span class="text">Charts</span></a></li>
-              <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons icon"></i>settings<span class="text">Settings</span></a></li>
-              <li class="nav-item"><a href="#" class="nav-link"><i class="material-icons icon"></i>computer<span class="text">Demo</span></a></li>
-              
-          </ul>
-      </div>
--->
-    
+
     
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12">   
         <h1 class="section-heading">Workable Tickets</h1>  
-          <div id="status-selector"></div>
+          
       </div>
     </div>  
   </section>
@@ -363,11 +350,11 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12">  
-        <div id="case-owner" ></div>
-        <div id="case-country"></div>
-<!--        <div id="case-owner-selector" class="custom-chart"></div> -->
-        <div id="sla-status"></div>
+        <div class="col-xs-12 col-sm-12">
+          <div id="status-selector"></div>  
+          <div id="case-owner" ></div>
+<!--          <div id="case-owner-selector" class="custom-chart"></div> -->
+        <div>  
       </div>
     </div>
   </section>
@@ -375,11 +362,26 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        
-    <div id="sla-status-pie"></div>
-    <div id="daysOld"></div>
-<!--    <div id="average-days-old"></div> -->
+        <div class="col-xs-12 col-sm-12">  
+          <div id="case-country"></div>
+          <div id="sla-status"></div>
+<!--          <div id="sla-status-pie"></div>  -->
+        <div>  
+      </div>
+    </div>
+  </section>
   
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          
+          <div id="daysOld"></div>
+          <div id="average-days-old">
+        </div>    
+      </div>
+    </div>  
+  </section>
   
     <!-- Footer -->
       <footer class="sticky-footer bg-white">

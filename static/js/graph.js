@@ -5,10 +5,10 @@ queue()
 function makeGraphs(error, ticketsData) {
     var ndx = crossfilter(ticketsData);
     
-/*    DaysOldData.forEach(function(d){
+    ticketsData.forEach(function(d){
         d.DaysOld = parseInt(d.DaysOld);
     })
-*/
+
     show_status_selector(ndx);
     show_case_owner(ndx);
     show_case_owner_selector(ndx);
