@@ -7,6 +7,7 @@ function makeGraphs(error, ticketsData) {
     
     ticketsData.forEach(function(d){
         d.DaysOld = parseInt(d.DaysOld);
+        d.CaseNumber = parseInt(d.CaseNumber);
     })
 
     show_status_selector(ndx);
@@ -14,7 +15,8 @@ function makeGraphs(error, ticketsData) {
     show_case_owner_selector(ndx);
     show_sla_status(ndx);
     show_case_country(ndx);
-    show_days_old(ndx);  
+    show_days_old(ndx);
+/*    show_days_old_to_status_correlation(ndx);  */
     
     dc.renderAll();
     
@@ -54,10 +56,31 @@ function show_case_owner_selector(ndx) {
         .group(group);
 }
 
+
+function show_case_country(ndx) {
+    var dim = ndx.dimension(dc.pluck('CaseCountry'));
+    var group = dim.group();
+    
+    dc.pieChart("#case-country")
+        .width(550)
+        .height(350)
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500);
+}
+
 function show_sla_status(ndx) {
 	    var dim = ndx.dimension(dc.pluck('SLAstatus'));
 	    var group = dim.group();
 	    
+	    dc.pieChart("#sla-status")
+        .width(550)
+        .height(350)
+        .dimension(dim)
+        .group(group)
+        .transitionDuration(500);
+
+/*	    
 	    dc.barChart("#sla-status")
 	        .width(400)
 	        .height(300)
@@ -69,24 +92,13 @@ function show_sla_status(ndx) {
 	        .xUnits(dc.units.ordinal)
 	        .xAxisLabel("SLA Status")
 	        .yAxis().ticks(20);
+*/	        
 	}
 
 
 
-function show_case_country(ndx) {
-    var dim = ndx.dimension(dc.pluck('CaseCountry'));
-    var group = dim.group();
-    
-    dc.pieChart("#case-country")
-        .width(650)
-        .height(300)
-        .dimension(dim)
-        .group(group)
-        .transitionDuration(500)
-}
-
 function show_days_old(ndx) {
-    var dim = ndx.dimension(dc.pluck('CaseOwner'));
+    var dim = ndx.dimension(dc.pluck('CaseCountry'));
     
     function add_item(p, v) {
         p.count++;
@@ -113,7 +125,7 @@ function show_days_old(ndx) {
   var averageDaysOld = dim.group().reduce(add_item, remove_item, initialise);
 
     dc.barChart("#average-days-old")
-        .width(400)
+        .width(600)
         .height(300)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dim)
@@ -125,8 +137,8 @@ function show_days_old(ndx) {
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
         .elasticY(true)
-        .xAxisLabel("Gender")
-        .yAxis().ticks(4);
+        .xAxisLabel("Average Age Of Tickets Per Country")
+        .yAxis().ticks(20);
 }
 
 function show_days_old_to_status_correlation(ndx) {
@@ -135,9 +147,9 @@ function show_days_old_to_status_correlation(ndx) {
 	        .domain(["outside SLA", "Within SLA"])
 	        .range(["red", "green"]);
 	    
-	    var eDim = ndx.dimension(dc.pluck("DaysOld"));
+	    var eDim = ndx.dimension(dc.pluck("CaseNumber"));
 	    var experienceDim = ndx.dimension(function(d) {
-	       return [d.DaysOld, d.CaseOwner, d.Status, d.SLAstatus];
+	       return [d.CaseNumber, d.DaysOld, d.CaseOwner, d.Status, d.SLAstatus];
 	    });
 	    var daysOldGroup = daysOldDim.group();
 	    
@@ -159,7 +171,7 @@ function show_days_old_to_status_correlation(ndx) {
 	            return d.key[3];
 	        })
 	        .colors(genderColors)
-	        .dimension(daysOldDim)
+	        .dimension(experienceDim)
 	        .group(daysOldGroup)
 	        .margins({top: 10, right: 50, bottom: 75, left: 75});
 	}
