@@ -47,6 +47,8 @@ function show_case_owner(ndx) {
         .yAxis().ticks(20) ; 
 }
 
+// Option to add another selector 
+
 function show_case_owner_selector(ndx) {
     var dim = ndx.dimension(dc.pluck('CaseOwner'));
     var group = dim.group();
@@ -73,15 +75,16 @@ function show_sla_status(ndx) {
 	    var dim = ndx.dimension(dc.pluck('SLAstatus'));
 	    var group = dim.group();
 	    
-	    dc.pieChart("#sla-status")
+	dc.pieChart("#sla-status")
         .width(550)
         .height(350)
         .dimension(dim)
         .group(group)
         .transitionDuration(500);
 
-/*	    
-	    dc.barChart("#sla-status")
+//	 <!-- For Bar Chart Options --> 
+/*
+	dc.barChart("#sla-status")
 	        .width(400)
 	        .height(300)
 	        .margins({top: 10, right: 50, bottom: 30, left: 50})
@@ -92,8 +95,9 @@ function show_sla_status(ndx) {
 	        .xUnits(dc.units.ordinal)
 	        .xAxisLabel("SLA Status")
 	        .yAxis().ticks(20);
-*/	        
-	}
+*/	
+
+}
 
 
 
